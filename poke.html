@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poke API Task ----- Rst Forum ------</title>
+    <style>
+      body {
+        background-color: #bbd5dd;
+        padding: 0;
+        margin: 0;
+      }
+
+      h2 {
+        text-align: center;
+        font-family: Verdana;
+        font-weight: bold;
+        color: #1c1c50;
+        font-size: 5rem;
+      }
+
+      h1 {
+        color: #000;
+        font-family: Verdana;
+        font-weight: bold;
+      }
+
+      h1:hover {
+        color: limegreen;
+        cursor: pointer;
+      }
+
+      img:hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+
+      .card {
+        border: 5px solid green;
+        margin: 18px;
+        padding: 52px;
+        height: 375px;
+        width: 165px;
+        border-radius: 100px;
+        background-color: whitesmoke;
+        border: 3.3px solid #eee;
+        box-shadow: 8px 8px 4px #c3d8db;
+        transition: transform 0.3s;
+      }
+
+      .card:hover {
+        transform: scale(1.04);
+      }
+
+      .header,
+      .footer {
+        background-color: #9ba4b5;
+        height: 80px;
+        padding: 0.7rem;
+        border: 5px solid #212a3e;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .footer {
+        box-shadow: 20px 40px 17px #c3d8db;
+      }
+
+      .header h3,
+      .footer h3 {
+        font-family: Verdana;
+        font-size: 1.8rem;
+        color: #1c1c50;
+      }
+
+      .footer span {
+        font-family: Verdana;
+        color: #000;
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="header">
+      <h3>Pokemon API Cards</h3>
+    </section>
+
+    <div id="root"></div>
+    <br />
+
+    <section class="footer">
+      <h3>Copyrights &nbsp;:-&nbsp; <span>pokeapi@gmail.com</span></h3>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="poke.js"></script>
+  </body>
+</html>
