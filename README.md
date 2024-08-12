@@ -9,12 +9,6 @@ Creating a professional product based website for apex enterprises startup compa
 - Display Pokémon Information: View details like Pokémon name, ID, type, abilities, and image.
 
 
-# Project Structure :-
-
-- index.html: The main HTML file that contains the structure of the web page.
-- script.js: The JavaScript file that contains the logic for fetching and displaying Pokémon data.
-
-
 # Technology :-
 
 - HTML
